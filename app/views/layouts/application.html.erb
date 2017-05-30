@@ -9,6 +9,17 @@
   </head>
 
   <body>
-    <%= yield %>
+    <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+      <%= link_to 'I-Rock', root_path, class: 'navbar-brand' %>
+        <div class="navbar-nav">
+          <%= link_to 'New Achievement', new_achievement_path %>
+        </div>
+    </nav>
+    <div class="container-fluid">
+      <% if flash[:notice] %>
+        <div class="alert alert-info"><%= flash[:notice] %></div>
+      <% end %>
+      <%= yield %>
+    </div>
   </body>
 </html>

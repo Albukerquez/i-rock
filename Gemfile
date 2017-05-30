@@ -8,6 +8,7 @@ end
 gem 'bootstrap', git: 'https://github.com/twbs/bootstrap-rubygem'
 gem 'rails', '~> 5.1.1'
 gem 'sqlite3'
+gem 'simple_form'
 gem 'puma', '~> 3.7'
 gem 'popper_js', '~> 1.9.9'
 gem 'sass-rails', '~> 5.0'
