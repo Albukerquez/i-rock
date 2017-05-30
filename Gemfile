@@ -7,6 +7,7 @@ end
 
 gem 'bootstrap', git: 'https://github.com/twbs/bootstrap-rubygem'
 gem 'rails', '~> 5.1.1'
+gem 'redcarpet'
 gem 'sqlite3'
 gem 'simple_form'
 gem 'puma', '~> 3.7'
