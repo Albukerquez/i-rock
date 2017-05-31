@@ -1,4 +1,16 @@
 GIT
+  remote: https://github.com/gogovan/devise.git
+  revision: 931ae3985872ea1f0039cd3a749779c0023a622a
+  branch: rails-5.1
+  specs:
+    devise (4.2.0)
+      bcrypt (~> 3.0)
+      orm_adapter (~> 0.1)
+      railties (>= 4.1.0, < 5.2)
+      responders
+      warden (~> 1.2.3)
+
+GIT
   remote: https://github.com/twbs/bootstrap-rubygem
   revision: 10271eeaa3d38e32686c6f86478cdf7cbea954c8
   specs:
@@ -52,6 +64,7 @@ GEM
     arel (8.0.0)
     autoprefixer-rails (7.1.1)
       execjs
+    bcrypt (3.1.11)
     bindex (0.5.0)
     builder (3.2.3)
     byebug (9.0.6)
@@ -127,6 +140,7 @@ GEM
     nio4r (2.1.0)
     nokogiri (1.7.2)
       mini_portile2 (~> 2.1.0)
+    orm_adapter (0.5.0)
     popper_js (1.9.9)
     public_suffix (2.0.5)
     puma (3.8.2)
@@ -165,6 +179,9 @@ GEM
     rb-inotify (0.9.8)
       ffi (>= 0.5.0)
     redcarpet (3.4.0)
+    responders (2.4.0)
+      actionpack (>= 4.2.0, < 5.3)
+      railties (>= 4.2.0, < 5.3)
     rspec-core (3.6.0)
       rspec-support (~> 3.6.0)
     rspec-expectations (3.6.0)
@@ -216,6 +233,8 @@ GEM
       thread_safe (~> 0.1)
     uglifier (3.2.0)
       execjs (>= 0.3.0, < 3)
+    warden (1.2.7)
+      rack (>= 1.0)
     web-console (3.5.1)
       actionview (>= 5.0)
       activemodel (>= 5.0)
@@ -237,6 +256,7 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   cucumber-rails
   database_cleaner
+  devise!
   factory_girl_rails
   jbuilder (~> 2.5)
   jquery-rails
