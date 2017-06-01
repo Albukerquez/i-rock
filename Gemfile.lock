@@ -11,6 +11,14 @@ GIT
       warden (~> 1.2.3)
 
 GIT
+  remote: https://github.com/thoughtbot/shoulda-matchers.git
+  revision: ead87017a6c15adce66a87dce8ee2ece91d0d27c
+  branch: rails-5
+  specs:
+    shoulda-matchers (3.1.2)
+      activesupport (>= 4.0.0)
+
+GIT
   remote: https://github.com/twbs/bootstrap-rubygem
   revision: 10271eeaa3d38e32686c6f86478cdf7cbea954c8
   specs:
@@ -268,6 +276,7 @@ DEPENDENCIES
   redcarpet
   rspec-rails
   sass-rails (~> 5.0)
+  shoulda-matchers!
   simple_form
   spring
   spring-watcher-listen (~> 2.0.0)
