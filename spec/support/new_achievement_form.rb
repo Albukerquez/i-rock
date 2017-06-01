@@ -1,4 +1,4 @@
-class NewAchievemntForm
+class NewAchievementForm
   include Capybara::DSL
 
   def visit_page
@@ -13,7 +13,6 @@ class NewAchievemntForm
     select('Public', from: 'Privacy')
     check('Featured achievement')
     attach_file('Cover image', "#{Rails.root}/spec/fixtures/cover_image.jpg")
-
     self
   end
 
